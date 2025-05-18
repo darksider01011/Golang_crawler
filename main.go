@@ -92,8 +92,8 @@ func parse(urll string) []string {
 		}
 
 	})
-	// Function delay
-	time.Sleep(1 * time.Second)
+	// Delay function
+	time.Sleep(3 * time.Second)
 
 	c.Visit(urll)
 
@@ -330,6 +330,6 @@ func depth_two(uri string) {
 }
 
 func main() {
-	uri := "https://shamsipour.nus.ac.ir"
+	uri := "https://google.com"
 	depth_two(uri)
 }
